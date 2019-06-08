@@ -25,7 +25,7 @@ SECRET_KEY = '8lcjg6fvao-ie62k64t%5xbi)rre=r+tl13n=0^70mpsgtfr(r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://astral-hulling-243117.appspot.com','127.0.0.1']
 
 
 # Application definition
