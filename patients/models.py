@@ -5,7 +5,7 @@ from disease.models import Disease
 
 # Create your models here.
 class Patients(models.Model):
-    Patients_Num = models.IntegerField(primary_key=True, max_length=10)
+    Patients_Num = models.IntegerField(primary_key=True,)
     Name = models.CharField(max_length=20, blank=True, null=True)
     Address = models.TextField(max_length=50)
     Contacts= models.CharField(max_length=10, blank=True, null=True)
