@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '8lcjg6fvao-ie62k64t%5xbi)rre=r+tl13n=0^70mpsgtfr(r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['astral-hulling-243117.appspot.com','127.0.0.1']
 
@@ -99,9 +99,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': '/cloudsql/astral-hulling-243117:asia-south1:hospital103',
-        'PORT': '3307',
-        'USER': 'kartik',
-        'PASSWORD': '1234',
+        'PORT': 'XXXX',
+        'USER': 'XXXX',
+        'PASSWORD': '1XXX',
         'NAME': 'hospital',
 
     }
