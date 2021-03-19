@@ -5,7 +5,7 @@ cycler==0.10.0
 DateTime==4.3
 Django==2.1.7
 django-report-builder==6.3.1
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 et-xmlfile==1.0.1
 google-api-core==1.11.1
 google-auth==1.6.3
